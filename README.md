@@ -1,4 +1,4 @@
-# Web Application Project: Aschente Blog Website
+# Web Application Project: To Do List Website
 
 This repository contains the backend part of the web application called To Do List. The project is developed using Python and MySQL, with a frontend designed using Bootstrap. It includes the following components:
 
