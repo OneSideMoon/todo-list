@@ -9,7 +9,7 @@ class Todo(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     title = db.Column(db.String(80))
     complete = db.Column(db.Boolean)
-
+    
 @app.route("/")
 def index():
     todos = Todo.query.all()
